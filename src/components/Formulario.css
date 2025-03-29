@@ -1,0 +1,61 @@
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #1a1a1a;
+    background-image: url('https://www.transparenttextures.com/patterns/black-twill.png');
+    color: #f0c0c0;
+    background-size: cover;
+}
+
+.form-container {
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    background: rgba(0, 0, 0, 0.8);
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+h2 {
+    text-align: center;
+    color: #f783ac;
+    margin-bottom: 20px;
+}
+
+label {
+    margin: 8px 0;
+    display: block;
+    color: #f0c0c0;
+}
+
+input, select, textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0 15px;
+    border-radius: 8px;
+    border: none;
+    background-color: #333;
+    color: #fff;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    background-color: #f783ac;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #d2648a;
+}
+
+footer {
+    text-align: center;
+    margin-top: 20px;
+    color: #f783ac;
+}
