@@ -12,7 +12,7 @@ const Formulario = () => {
 
     const enviarAWhatsApp = () => {
         const numeroWhatsApp = "573182724666";
-        const texto = `✨ *Solicitud de Información Confidencial* ✨\n\n👤 *Nombre:* ${nombre}  \n🌀 *Soy:* ${genero}  \n🔍 *Busco en mi encuentro:* ${busqueda}  \n💖 *Mi mayor interés en el evento:* ${interes}  \n📋 *Requerimientos adicionales:* ${requerimientos}  \n🌟 *Mi fantasía:* ${fantasia}`;
+        const texto = `✨ *Solicitud de Eventos* ✨\n\n👤 *Nombre:* ${nombre}  \n🌀 *Soy:* ${genero}  \n🔍 *Busco en mi encuentro:* ${busqueda}  \n💖 *Mi mayor interés en el evento:* ${interes}  \n📋 *Requerimientos adicionales:* ${requerimientos}  \n🌟 *Mi fantasía:* ${fantasia}`;
         const url = `https://wa.me/${numeroWhatsApp}?text=${encodeURIComponent(texto)}`;
         window.open(url, "_blank");
     };

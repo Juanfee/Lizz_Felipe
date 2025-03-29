@@ -7,7 +7,7 @@
 
 /* Centrar el contenido */
 body, html, #root, .App {
-  height: 110%;
+  height: 100%;
   font-family: 'Arial', sans-serif;
   background-color: #f3f4f6; /* Fondo gris claro */
 }
